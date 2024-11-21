@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Nail 代理方案 Q&A</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 900px;
+      margin: 20px auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input[type="text"], textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 10px 15px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      display: none;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 14px;
+      color: #777;
+    }
+    /* 響應式設計 */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2, h3 {
+        font-size: 20px;
+      }
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 20px;
+      }
+      h2, h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="content">
+    <h1>Top Nail 代理方案 Q&A</h1>
+    <p><strong>日期：</strong>19 Dec, 2024</p>
+    <p><strong>作者：</strong>Viewture Creative, By Adrian Cheung</p>
+
+    <h2>核心考量方向</h2>
+
+    <div class="question">
+      <h3>1. 市場需求與產品線定位</h3>
+      <label for="cold-wax-market">冷蠟產品：香港市場對冷蠟類型的產品接受度如何？目標客群是哪些人？</label>
+      <textarea id="cold-wax-market" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="cold-wax-selling-points">冷蠟產品的核心賣點是否能打動消費者？</label>
+      <textarea id="cold-wax-selling-points" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="brow-lash-synergy">眉毛與睫毛產品：是否能與貴店現有服務（如美容或指甲服務）形成協同效應？</label>
+      <textarea id="brow-lash-synergy" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="brow-lash-competitors">市場上是否有類似的競品？西班牙巴拿努品牌的眉毛與睫毛產品是否具備獨特性？</label>
+      <textarea id="brow-lash-competitors" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+    </div>
+
+    <div class="question">
+      <h3>2. 供應鏈與運營能力</h3>
+      <label for="supply-chain">物流與補貨：每次船運需要3個月的周期，是否能接受這樣的補貨時間？</label>
+      <textarea id="supply-chain" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="inventory-management">庫存與銷售管理：若某些產品銷售不如預期，是否有靈活的清庫策略？</label>
+      <textarea id="inventory-management" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="staff-training">運營團隊能力：員工是否需要額外接受品牌產品的使用培訓？</label>
+      <textarea id="staff-training" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+    </div>
+
+    <div class="question">
+      <h3>3. 品牌合作條件與支持</h3>
+      <label for="brand-support">品牌支持：品牌方是否能提供足夠的市場推廣支持？</label>
+      <textarea id="brand-support" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="brand-conditions">合作條件：品牌方是否允許分階段代理部分產品線？</label>
+      <textarea id="brand-conditions" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+    </div>
+
+    <div class="question">
+      <h3>4. 產品多樣性與風險管理</h3>
+      <label>是否能通過產品多樣化，提升顧客的單次消費金額？</label>
+      <select id="diversification">
+        <option value="">請選擇</option>
+        <option value="yes">是</option>
+        <option value="no">否</option>
+      </select>
+      <p class="error">此欄位為必填項</p>
+
+      <label>如果某一條產品線銷售不佳，是否會影響整體代理計劃的收益？</label>
+      <select id="sales-impact">
+        <option value="">請選擇</option>
+        <option value="yes">是</option>
+        <option value="no">否</option>
+      </select>
+      <p class="error">此欄位為必填項</p>
+    </div>
+
+    <div class="question">
+      <h3>5. 長期發展與戰略價值</h3>
+      <label for="long-term-value">代理該品牌是否能幫助貴店建立差異化競爭優勢？</label>
+      <textarea id="long-term-value" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+
+      <label for="future-potential">該品牌是否有良好的發展潛力，並能在未來成為貴店的明星品牌？</label>
+      <textarea id="future-potential" placeholder="請填寫您的答案"></textarea>
+      <p class="error">此欄位為必填項</p>
+    </div>
+  </div>
+
+  <button class="btn" onclick="validateAndDownload()">下載 PDF</button>
+
+  <footer>
+    &copy; 2024 Viewture Creative. All Rights Reserved.
+  </footer>
+
+  <script>
+    function validateAndDownload() {
+      const inputs = document.querySelectorAll("textarea, select");
+      let allValid = true;
+
+      inputs.forEach((input) => {
+        const errorText = input.nextElementSibling;
+        if (!input.value.trim()) {
+          errorText.style.display = "block";
+          allValid = false;
+        } else {
+          errorText.style.display = "none";
+        }
+      });
+
+      if (allValid) {
+        generatePDF();
+      } else {
+        alert("請完成所有必填項目後再下載 PDF。");
+      }
+    }
+
+    async function generatePDF() {
+      const { jsPDF } = window.jspdf;
+
+      // Use html2canvas to render the container as an image
+      const content = document.getElementById("content");
+      const canvas = await html2canvas(content, { scale: 2 });
+      const imgData = canvas.toDataURL("image/png");
+
+      // Create a new PDF document
+      const pdf = new jsPDF("p", "mm", "a4");
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+
+      // Add the rendered image to the PDF
+      pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
+      pdf.save("Top_Nail_代理方案_Q&A.pdf");
+    }
+  </script>
+</body>
+</html>
